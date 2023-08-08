@@ -84,7 +84,7 @@ body{
     display: flex;
     justify-content: center;
     grid-gap: 16px;
-    border: 2px solid #22D4FD;var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
