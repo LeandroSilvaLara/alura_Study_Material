@@ -4,6 +4,7 @@
     --botton-blue: #167BF7;
     --background-color: #00030C;
     --main-font: 'Inter';
+    --button-blue-effects: #9b6bf5
 }
 
 body {
@@ -111,4 +112,45 @@ body {
 
 .list__item {
     font-size: 32px;
+}
+
+.rodape__texto {
+    color: var(--second-gray);
+    font-size: 14px;
+    margin: 2em 0;
+}
+
+.list_link a {
+    color: var(--main-white);
+    margin-left: 3em;
+    text-decoration: none;
+
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0, 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.list_link a:hover {
+    color: var(--botton-blue);
+}
+
+.list_link a:active {
+    color: purple;
+}
+
+.container__button:hover {
+    background-color: var(--button-blue-effects);
+    color: var(--background-color);
 }
