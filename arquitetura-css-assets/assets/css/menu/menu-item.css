@@ -1,11 +1,11 @@
-.menu-item {
+.menu__item {
     list-style: none;
 }
 
-.menu-item:last-child .menu-link {
+.menu__item:last-child .menu__link {
     margin-right: 0;
 }
 
-.menu-link:hover {
+.menu__item:hover {
     text-decoration: underline;
 }
