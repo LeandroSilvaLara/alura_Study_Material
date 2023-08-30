@@ -5,11 +5,7 @@ import br.com.alura.screenmatch.calculos.Classificavel;
 public class Episodio implements Classificavel {
     private int numero;
     private String nome;
-    private Serie Serie;
-
-    public int getNumero() {
-        return numero;
-    }
+    private Serie serie;
     private int totalVisualizacoes;
 
     public int getTotalVisualizacoes() {
@@ -18,6 +14,10 @@ public class Episodio implements Classificavel {
 
     public void setTotalVisualizacoes(int totalVisualizacoes) {
         this.totalVisualizacoes = totalVisualizacoes;
+    }
+
+    public int getNumero() {
+        return numero;
     }
 
     public void setNumero(int numero) {
@@ -32,12 +32,12 @@ public class Episodio implements Classificavel {
         this.nome = nome;
     }
 
-    public br.com.alura.screenmatch.modelos.Serie getSerie() {
-        return Serie;
+    public Serie getSerie() {
+        return serie;
     }
 
-    public void setSerie(br.com.alura.screenmatch.modelos.Serie serie) {
-        Serie = serie;
+    public void setSerie(Serie serie) {
+        this.serie = serie;
     }
 
     @Override
