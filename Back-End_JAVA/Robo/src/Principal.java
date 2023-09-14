@@ -7,6 +7,10 @@ public class Principal {
 
         RobotXY robot = new RobotXY(id, gps);
 
+        // Ativar os estados desejados
+        robot.clockwise(); // Ou use robot.counterCw() ou robot.alternating()
+
+
         Move move;
 
         do {
