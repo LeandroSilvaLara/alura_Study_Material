@@ -19,4 +19,18 @@ public class GPS {
         if( m1 == Move.RIGHT && cr < c)
             cr++;
     }
+
+    // Define a coordenada lr para o robô com o ID especificado
+    public void setL(int id, int newValue) {
+        if (id == 120097832) { // Verifica se é o ID do robô específico
+            lr = newValue;
+        }
+    }
+
+    // Define a coordenada cr para o robô com o ID especificado
+    public void setC(int id, int newValue) {
+        if (id == 120097832) { // Verifica se é o ID do robô específico
+            cr = newValue;
+        }
+    }
 }
